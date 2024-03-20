@@ -1,1 +1,2 @@
 # bank-tools
+This CLI App uses the Plaid framework to connect banks without the use of their API. The requests are made thorugh the Plaid framework and the responses are from Plaid as well. The CLI doesn't have the ability to link your bank yet, you'd have to do that manually through their test code. If you have the Access Token and Item Id ready for your bank ready, this app will work great for you.
