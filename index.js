@@ -4,7 +4,6 @@ const minimist = require('minimist');
 const express = require('express');
 const bodyParser = require("body-parser");
 let { Configuration, PlaidApi, PlaidEnvironments } = require('plaid');
-const {data} = require("express-session/session/cookie");
 const app = express();
 
 const args = minimist(process.argv.slice(2));
